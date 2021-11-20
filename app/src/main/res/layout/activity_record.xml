@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D8D8D8">
+    <LinearLayout
+        android:layout_marginTop="150dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_settings_nav"/>
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="CUSTOM SETTING"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+        <RadioButton
+            android:id="@+id/customsetting_bt"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_baseline_mic_24"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="AUDIO"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+        <RadioButton
+            android:id="@+id/audio_bt"
+            android:layout_marginLeft="100dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_activity_record_24"/>
+</LinearLayout>
