@@ -8,3 +8,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "hdrecord"
 include ':app'
+include ':HDRecord'
